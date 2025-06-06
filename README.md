@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Md-nexus</h1>
+<h1 align="center">Hi 👋, I'm Nexus</h1>
 <h3 align="center">A Scatter brained hobbyist working on any project that grabs my attention at the moment.</h3>
 
 - 🔭 I’m currently working on **A simple small language model (SLM)**
