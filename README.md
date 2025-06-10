@@ -1,7 +1,6 @@
 <h1 align="center">Hi 👋, I'm Md-nexus</h1>
 <h3 align="center">A Scatter brained hobbyist working on any project that grabs my attention at the moment.</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=md-nexus" alt="md-nexus" /></a> </p>
 
 - 🔭 I’m currently working on **A simple small language model (SLM)**
 
