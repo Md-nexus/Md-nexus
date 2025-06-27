@@ -1,29 +1,27 @@
 import random
 
-# Quotes — Add more here
 quotes = [
-    "Simplicity is the soul of efficiency. – Austin Freeman",
-    "Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.",
-    "In the middle of difficulty lies opportunity. – Albert Einstein",
+    "Simplicity is the soul of efficiency.",
     "Talk is cheap. Show me the code. – Linus Torvalds",
-    "Curiosity is the compass. Bugs are just detours."
+    "Every bug is a lesson in disguise.",
+    "Build what you need. Break what you don't.",
+    "In the middle of difficulty lies opportunity. – Einstein"
 ]
-
-# Pick a random quote
-quote = random.choice(quotes)
 
 # Load README
 with open("README.md", "r", encoding="utf-8") as f:
     content = f.read()
 
-# Replace the section
+# Replace between the quote markers
 start = "<!--QUOTE_START-->"
 end = "<!--QUOTE_END-->"
+
 before = content.split(start)[0]
 after = content.split(end)[1]
 
-new_content = f"{before}{start}\n🧠 **Daily Thought:** *\"{quote}\"*\n{end}{after}"
+quote = f'{start}\n🧠 **Daily Thought:** *"{random.choice(quotes)}"*\n{end}'
+new_content = f"{before}{quote}{after}"
 
-# Save it back
+# Write back
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(new_content)
