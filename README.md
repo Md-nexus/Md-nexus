@@ -69,7 +69,7 @@ sometimes I build out of need. sometimes I build out of envy. sometimes it's jus
 
 <!--QUOTE_START-->
 ```
-🧠 **Daily Thought:** *"loading..."*
+🧠 Daily Thought: "loading..."
 ```
 <!--QUOTE_END-->
 
