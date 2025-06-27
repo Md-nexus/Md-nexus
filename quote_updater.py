@@ -1,27 +1,26 @@
 import random
+import re
 
 quotes = [
     "Simplicity is the soul of efficiency.",
     "Talk is cheap. Show me the code. – Linus Torvalds",
     "Every bug is a lesson in disguise.",
-    "Build what you need. Break what you don't.",
-    "In the middle of difficulty lies opportunity. – Einstein"
+    "In the middle of difficulty lies opportunity. – Einstein",
+    "Sometimes you build out of need. Sometimes, out of envy."
 ]
 
-# Load README
+new_quote = f'🧠 **Daily Thought:** *"{random.choice(quotes)}"*'
+
 with open("README.md", "r", encoding="utf-8") as f:
     content = f.read()
 
-# Replace between the quote markers
-start = "<!--QUOTE_START-->"
-end = "<!--QUOTE_END-->"
+# Replace everything between <!--QUOTE_START--> and <!--QUOTE_END-->
+new_content = re.sub(
+    r'<!--QUOTE_START-->.*?<!--QUOTE_END-->',
+    f'<!--QUOTE_START-->\n{new_quote}\n<!--QUOTE_END-->',
+    content,
+    flags=re.DOTALL
+)
 
-before = content.split(start)[0]
-after = content.split(end)[1]
-
-quote = f'{start}\n🧠 **Daily Thought:** *"{random.choice(quotes)}"*\n{end}'
-new_content = f"{before}{quote}{after}"
-
-# Write back
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(new_content)
