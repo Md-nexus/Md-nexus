@@ -75,5 +75,5 @@ sometimes I build out of need. sometimes I build out of envy. sometimes it's jus
 ---
 ![Learning](https://img.shields.io/badge/learning-as_I_go-5E60CE?style=for-the-badge)
 ![Toolmaker](https://img.shields.io/badge/made_for-me-7209B7?style=for-the-badge)
-![Curious](https://img.shields.io/badge/Wondering,-thinking,-inovating-560BAD?style=for-the-badge) 
+![Curious](https://img.shields.io/badge/Wondering,_thinking,-inovating-560BAD?style=for-the-badge) 
 ---
