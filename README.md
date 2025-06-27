@@ -29,9 +29,7 @@ sometimes I build out of need. sometimes I build out of envy. sometimes it's jus
 * I break things often. sometimes I fix them. usually I learn something.
 * not here to prove anything — just building stuff I wish existed.
 
-![Learning](https://img.shields.io/badge/learning-as_I_go-5E60CE?style=for-the-badge)
-![Toolmaker](https://img.shields.io/badge/made_for-me-7209B7?style=for-the-badge)
-![Curious](https://img.shields.io/badge/Wondering_thinking_inovating-560BAD?style=for-the-badge) 
+![Learning](https://img.shields.io/badge/learning-as_I_go-5E60CE?style=for-the-badge)![Toolmaker](https://img.shields.io/badge/made_for-me-7209B7?style=for-the-badge)![Curious](https://img.shields.io/badge/Wondering,_thinking,_inovating-560BAD?style=for-the-badge) 
 ---
 
 ### ⚙️ Tools I Actually Use
