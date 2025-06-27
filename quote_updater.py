@@ -14,13 +14,18 @@ new_quote = f'🧠 **Daily Thought:** *"{random.choice(quotes)}"*'
 with open("README.md", "r", encoding="utf-8") as f:
     content = f.read()
 
-# Replace everything between <!--QUOTE_START--> and <!--QUOTE_END-->
-new_content = re.sub(
-    r'<!--QUOTE_START-->.*?<!--QUOTE_END-->',
-    f'<!--QUOTE_START-->\n{new_quote}\n<!--QUOTE_END-->',
-    content,
-    flags=re.DOTALL
-)
+# Pattern match everything inside quote markers
+pattern = r'<!--QUOTE_START-->.*?<!--QUOTE_END-->'
+replacement = f'<!--QUOTE_START-->\n{new_quote}\n<!--QUOTE_END-->'
 
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(new_content)
+# Do the replacement
+new_content = re.sub(pattern, replacement, content, flags=re.DOTALL)
+
+# Only write if it actually changed
+if new_content != content:
+    with open("README.md", "w", encoding="utf-8") as f:
+        f.write(new_content)
+    print("✅ Updated README with new quote:")
+    print(new_quote)
+else:
+    print("⚠️ Quote unchanged. No update made.")
