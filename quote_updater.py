@@ -22,7 +22,7 @@ end = "<!--QUOTE_END-->"
 before = content.split(start)[0]
 after = content.split(end)[1]
 
-new_content = f"{before}{start}\n🧠 **Daily Thought:```** *\"{quote}\"*```\n{end}{after}"
+new_content = f"{before}{start}\n🧠 **Daily Thought:** *\"{quote}\"*\n{end}{after}"
 
 # Save it back
 with open("README.md", "w", encoding="utf-8") as f:
