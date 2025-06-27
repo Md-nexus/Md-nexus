@@ -60,7 +60,7 @@ sometimes I build out of need. sometimes I build out of envy. sometimes it's jus
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=md-nexus&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" />
+  <img src="https://github-profile-trophy.vercel.app/?username=md-nexus&theme=radical&no-frame=true&no-bg=true&margin-w=10" />
 </p>
 
 ---
@@ -68,9 +68,7 @@ sometimes I build out of need. sometimes I build out of envy. sometimes it's jus
 ### Daily Quote - if you made it this far.
 
 <!--QUOTE_START-->
-```
 🧠 Daily Thought: "loading..."
-```
 <!--QUOTE_END-->
 
 ---
@@ -85,5 +83,5 @@ sometimes I build out of need. sometimes I build out of envy. sometimes it's jus
 ---
 ![Learning](https://img.shields.io/badge/learning-as_I_go-5E60CE?style=for-the-badge)
 ![Toolmaker](https://img.shields.io/badge/made_for-ME-7209B7?style=for-the-badge)
-![Curious](https://img.shields.io/badge/_Wondering,_thinking,_inovating-560BAD?style=for-the-badge) 
+![Curious](https://img.shields.io/badge/_Wondering,_thinking,_innovating-560BAD?style=for-the-badge) 
 ---
