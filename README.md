@@ -9,6 +9,10 @@
 
 ---
 
+<!--QUOTE_START-->
+🧠 *loading quote...*
+<!--QUOTE_END-->
+---
 ### 🔧 Currently Cooking
 
 - 🧠 **[SLM: A Small Language Model](https://github.com/Md-nexus/SLM)**  
