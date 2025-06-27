@@ -1,5 +1,5 @@
 <h1 align="center">👾 MD-NEXUS</h1>
-<h3 align="center">a scatterbrained hobbyist working on whatever grabs my brain at 2AM</h3>
+<h3 align="center">A scatterbrained hobbyist working on whatever grabs my brain at 2AM</h3>
 
 ---
 
@@ -60,7 +60,7 @@ sometimes I build out of need. sometimes I build out of envy. sometimes it's jus
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=md-nexus&theme=radical&no-frame=true&no-bg=true&margin-w=10" />
+  <img src="https://github-profile-trophy.vercel.app/?username=md-nexus&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" />
 </p>
 
 ---
@@ -72,8 +72,4 @@ sometimes I build out of need. sometimes I build out of envy. sometimes it's jus
 | [SLM](https://github.com/Md-nexus/SLM)                         | From scratch LLM — just a curious deep dive into tokenizers, attention, and all that good stuff. |
 | [Hardsubber Tool](https://github.com/Md-nexus/Hardsubber_Tool) | Batch-subtitle tool I built 'cause everything else was mid or annoying to use.                   |
 
----
-
-<p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=Md-nexus&icon=0&color=0" />
-</p>
+    
