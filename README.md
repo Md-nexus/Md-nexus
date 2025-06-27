@@ -9,10 +9,6 @@
 
 ---
 
-<!--QUOTE_START-->
-🧠 *loading quote...*
-<!--QUOTE_END-->
----
 ### 🔧 Currently Cooking
 
 - 🧠 **[SLM: A Small Language Model](https://github.com/Md-nexus/SLM)**  
@@ -27,7 +23,7 @@
 
 ```txt
 sometimes I build out of need. sometimes I build out of envy. sometimes it's just vibes.
-````
+```
 
 * learning everything as I go. no roadmap, just rabbit holes.
 * I break things often. sometimes I fix them. usually I learn something.
@@ -67,6 +63,14 @@ sometimes I build out of need. sometimes I build out of envy. sometimes it's jus
   <img src="https://github-profile-trophy.vercel.app/?username=md-nexus&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10" />
 </p>
 
+---
+
+### Daily Quote - if you made it this far.
+``
+<!--QUOTE_START-->
+🧠 **Daily Thought:** *"loading..."*
+<!--QUOTE_END-->
+``
 ---
 
 ### 🧠 Pinned Projects
