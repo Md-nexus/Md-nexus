@@ -20,10 +20,13 @@ jobs:
         run: |
           python quote_updater.py
 
-      - name: Commit changes
+      - name: Push changes
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}
           git add README.md
           git diff --cached --quiet && echo "⚠️ No changes to commit" || git commit -m "🔁 Daily quote update"
           git push
