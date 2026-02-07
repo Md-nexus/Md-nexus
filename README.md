@@ -68,7 +68,7 @@ sometimes I build out of need. sometimes I build out of envy. sometimes it's jus
 ### Daily Quote - if you made it this far.
 
 <!--QUOTE_START-->
-🧠 **Daily Thought:** *"Talk is cheap. Show me the code. – Linus Torvalds"*
+🧠 **Daily Thought:** *"Curiosity is the compass. Bugs are just detours."*
 <!--QUOTE_END-->
 
 ---
