@@ -68,7 +68,7 @@ sometimes I build out of need. sometimes I build out of envy. sometimes it's jus
 ### Daily Quote - if you made it this far.
 
 <!--QUOTE_START-->
-🧠 **Daily Thought:** *"Simplicity is the soul of efficiency. – Austin Freeman"*
+🧠 **Daily Thought:** *"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it."*
 <!--QUOTE_END-->
 
 ---
